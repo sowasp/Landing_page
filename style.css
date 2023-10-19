@@ -6,12 +6,16 @@ body {
  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+/*header styling*/
+
 .header {
     background-color: #1f2937;
     color:#e5e7eb;
     height:auto;
     display:flex;
     justify-content:space-between;
+    padding-right:150px;
+    padding-left:150px;
     
 }
 
@@ -25,19 +29,80 @@ ul {
 
 .logo img {
     border-radius: 50%;
-}   
+} 
+
+/*heading styling*/
 
 .heading h1 {
     font-size:48px;
     font-weight:bolder;
     color:#f9faf8;
+    margin-bottom: 0px;
+    
     
 }
 
+
+.heading .h1bot {
+    display:flex;
+    flex-direction: column;
+    padding-right:200px;
+    width:400px;
+}
+
+
 .heading {
     display:flex;
+    justify-content: space-around;
     background-color: #1f2937;
+    padding-bottom: 120px;
+    padding-top:120px;
+    color:#f9faf8;
+   
+}
+
+.button {
+    background-color: #3882f6;
+    width:fit-content;
+    padding:5px 30px;
+    border-radius:8px;
     
+}
 
+/*center of the page style*/
 
+.center {
+    display:flex;
+    flex-direction:column;
+    padding:50px 50px 50px 50px;
+    text-align: center;
+    
+}
+
+.center h1 {
+    font-size:36px;
+    font-weight:bolder;
+    color:#1f2937;
+}
+
+.center .img {
+    display:flex;
+    text-align: center;
+    font-size:18px;
+    color:#565c66;
+    justify-content: center;
+}
+
+figure {
+    width:150px;
+}
+
+.center img {
+    height:120px;
+    border-radius: 8%;
+    
+    border:solid 4px #3882f6;
+    
+    
+    
 }
